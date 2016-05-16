@@ -339,7 +339,7 @@ gisto_libudev_helper
 }
 
 mk_windows() {
-    cat ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/nwjs/nw.exe ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/latest-git/${PKG_NAME}.nw > ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/latest-git/${PKG_NAME}.exe
+    cat ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/nwjs/nw.exe ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/latest-git/${PKG_NAME}.nw > ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/latest-git/nw.exe
     rm ${WORKING_DIR}/${TMP}/${ARR_OS[$i]}/latest-git/${PKG_NAME}.nw
     
     if [[ -f "${WIN_RESOURCE_ICO}" ]];then
