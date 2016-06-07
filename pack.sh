@@ -239,8 +239,6 @@ pack_windows() {
             NWJS_APP_REPLACE_INC_FILE_4 ${BUILD_DIR}/TMP/win-${arch}/latest-git/libGLESv2.dll \
             NWJS_APP_REPLACE_INC_FILE_5 ${BUILD_DIR}/TMP/win-${arch}/latest-git/nw.pak \
             NWJS_APP_REPLACE_INC_FILE_6 ${BUILD_DIR}/TMP/win-${arch}/latest-git/d3dcompiler_47.dll \
-            NWJS_APP_REPLACE_INC_FILE_7 /media/sf_ShareVirtualBox/MyViz/Projects/MyViz_plugins_release/plugins.zip \
-            NWJS_APP_REPLACE_INC_FILE_8 /media/sf_ShareVirtualBox/MyViz/Projects/MyViz_splashscreen/MyViz.exe \
             NWJS_APP_REPLACE_ICO_FILE_NAME $(basename $(get_value_by_key windowsIconPath)) \
             NWJS_APP_REPLACE_INC_FILE_ICO $(get_value_by_key windowsIconPath) \
             -- app.nsi;
